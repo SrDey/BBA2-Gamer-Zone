@@ -1,0 +1,31 @@
+*{
+  font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin: 0%;
+padding: 0%;
+}
+/* Navigation */
+nav{
+  display: flex;
+  height: 100px;
+  background: #FFF;
+  justify-content: space-around;
+
+}
+.nav-items{
+  display: flex;
+  justify-content: space-evenly;
+  
+ 
+}
+.nav-items ul{
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+.logo-item{
+  display: flex;
+}
+.logo{
+  height: 40px;
+}
