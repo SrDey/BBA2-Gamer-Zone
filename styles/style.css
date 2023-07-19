@@ -261,7 +261,6 @@ figcaption {
 /* btn-section */
 .btn-section {
   display: grid;
-  grid-template-rows: (5, 1fr);
   justify-content: space-around;
   margin-top: -300px;
 
@@ -317,6 +316,22 @@ footer {
   text-decoration: none;
   color: #FFF;
 }
+.foot-icon{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.copyright{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+
 
 
 
@@ -392,6 +407,55 @@ footer {
     height: 80%;
     padding: 20px;
   }
+  /* btn */
+  .btn-section {
+    display: block;
+    margin-top: -300px;
+  }
+
+  .five-btn,
+  .four-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-c {
+    width: calc(33.33% - 10px);
+    margin: 10px 5px;
+  }
+  /* footer */
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .foot-icon {
+    justify-content: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .copyright {
+    font-size: 8px;
+    margin-top: 10px;
+  }
+ 
 }
 
 
@@ -406,12 +470,16 @@ footer {
 
   nav,
   .banner,
-  .gamer {
+  .gamer,
+  .play-games,
+  .cards {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-
+.cards{
+  align-items: center;
+}
   .gamer-img {
     height: 100%;
     width: 100%;
@@ -420,4 +488,68 @@ footer {
   .gamer {
     padding: 50px 20px;
   }
+  /* cards */
+  .cards {
+    align-items: center;
+  }
+
+  /* play games */
+  .play-games {
+    padding: 10px 10px;
+  }
+
+  .play-games-img {
+    width: 100px;
+    height: 80%;
+    padding: 20px;
+  }
+  /* btn */
+  .btn-section {
+    display: block;
+    margin-top: -300px;
+  }
+
+  .five-btn,
+  .four-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-c {
+    width: calc(33.33% - 10px);
+    margin: 10px 5px;
+  }
+  /* footer */
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .foot-icon {
+    justify-content: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .copyright {
+    font-size: 8px;
+    margin-top: 10px;
+  }
+ 
 }
